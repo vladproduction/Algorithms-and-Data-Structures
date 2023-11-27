@@ -1,2 +1,10 @@
 # The-Algorithms
-Operations on collections
+
+-datastructures;
+-math;
+-search;
+-string;
+-sort;
+-dinamicprogramming;
+-conversions;
+-scheduling;
