@@ -1,0 +1,78 @@
+Greedy Algorithm Data Structures: An Overview
+A greedy algorithm is a powerful method to quickly identify an optimal solution by making the best decision at
+any given step and always choosing the most suitable option without reconsidering previously selected choices.
+
+What is a Greedy Algorithm in Data Structures?
+A Greedy algorithm is a problem-solving approach that involves making decisions based solely on the information
+available at each step of the process. The idea behind a Greedy algorithm is to optimize each step by choosing the
+best option at that moment, hoping that the entire process will lead to the optimal result in the end. The algorithm
+never reverses the earlier decision even if the choice is wrong.
+
+While it may not always provide the best solution, it's widely referred to as one of the most intuitive and
+straightforward algorithms available. Overall, a Greedy algorithm can be an incredibly useful tool for problem-solving,
+especially when time and resources are limited.
+
+We can determine if the algorithm can be used with any optimization problem if the problem satisfies the following
+two properties:
+1)Greedy Choice Property
+If an optimal solution to the problem can be found by choosing the best choice at each step without reconsidering the
+previous steps once chosen, the problem can be solved using a greedy approach.
+2)Optimal Substructure
+If the optimal overall solution to the problem corresponds to the optimal solution to its subproblems, then the problem
+can be solved using a greedy approach.
+
+Greedy Algorithm Properties
+*Any greedy algorithm consists of a sequence of choices/ decisions (for the problem we're solving) and each choice made
+should be the best possible one at the moment.
+*The choice made at any point cannot be altered later.
+*The greedy algorithm may not always yield the globally optimal solution and may even result in the worst global solution
+(such as in the Travelling Salesman Problem).
+*Greedy algorithms are very fast compared to their alternatives, such as dynamic programming. This is because dynamic
+programming has to consider all possible cases locally at all times, while the greedy approach goes ahead with only one
+optimal choice.
+*Greedy algorithms are very intuitive, but it is very hard to prove mathematically the correctness of the algorithm.
+*The greedy algorithm may lead to a solution that is very close to the optimal solution in problems where there is no
+efficient solution. It is to be noted that the obtained solution in such cases is not an exact one, but rather an
+approximate one.
+
+Advantages of Greedy Algorithm
+*Simplicity: Greedy algorithms are usually straightforward to understand and implement. They follow a step-by-step
+approach where the best possible decision is made at each stage based on the current information. This simplicity makes
+them easier to design and analyze compared to more complex algorithms.
+*Efficiency: Greedy algorithms often have low time complexity and can run efficiently even for large input sizes.
+The greedy approach typically involves making local optimal choices, which can lead to faster execution times compared
+to exhaustive search or dynamic programming techniques.
+*Memory efficiency: Greedy algorithms often require minimal memory usage. They usually don't need to store the entire
+problem space or maintain an extensive set of intermediate solutions. Instead, they only need to store the current best
+solution and update it as they progress.
+
+Disadvantages of Greedy Algorithm
+*Lack of global optimization: Greedy algorithms make locally optimal choices at each step without considering the
+overall solution. As a result, they may not always lead to the globally optimal solution. The greedy approach may
+overlook future consequences and make choices that seem optimal at the moment but turn out to be suboptimal in the long run.
+*Lack of backtracking: Greedy algorithms do not backtrack or reconsider decisions made earlier. Once a choice is made,
+it is not revisited, even if better options become available later. This can lead to suboptimal solutions or even
+incorrect results.
+*Dependency on problem structure: Greedy algorithms heavily rely on the problem's structure and the specific criteria
+used to make greedy choices. Different problem structures may require different criteria for selecting the next step,
+and the same greedy algorithm may not work well for all problem instances.
+
+Types of Greedy Algorithms:
+Selection Sort
+Knapsack Problem
+Minimum Spanning Tree
+Single-Source Shortest Path Problem
+Job Scheduling Problem
+Prim's Minimal Spanning Tree Algorithm
+Kruskal's Minimal Spanning Tree Algorithm
+Dijkstra's Minimal Spanning Tree Algorithm
+Huffman Coding
+Ford-Fulkerson Algorithm
+
+
+Dynamic Programming vs. Greedy:
+
+*Dynamic programming typically involves building a table of solutions for subproblems and using those solutions to
+construct the overall solution, often guaranteeing optimality.
+*Greedy algorithms make locally optimal choices at each step, aiming for a good solution but not always ensuring the
+global optimum.
