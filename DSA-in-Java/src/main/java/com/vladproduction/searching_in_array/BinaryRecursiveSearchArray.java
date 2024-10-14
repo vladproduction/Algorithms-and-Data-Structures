@@ -1,4 +1,4 @@
-package com.vladproduction.algorithms;
+package com.vladproduction.searching_in_array;
 
 /**
  * assume array is sorted before searching;
